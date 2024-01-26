@@ -1,0 +1,9 @@
+include LICENSE.txt
+include experimental/utils/progress.py
+include include/torchneuron/*.h
+include lib/*.so
+include optim/adamw.py
+include proto/metaneff_pb2.py
+include pyhlo/*.py
+include pyhlo/constant/*.py
+include xla_impl/*.py
