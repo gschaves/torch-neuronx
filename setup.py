@@ -18,5 +18,6 @@ def get_version():
 setup(
     name='torch_neuronx',
     version=get_version(),
-    packages=find_packages()
+    packages=find_packages(),
+    include_package_data=True
 )
