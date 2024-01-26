@@ -19,5 +19,6 @@ setup(
     name='torch_neuronx',
     version=get_version(),
     packages=find_packages(),
+    setup_requires=['setuptools_scm'],
     include_package_data=True
 )
